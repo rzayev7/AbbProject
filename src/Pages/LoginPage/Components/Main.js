@@ -28,7 +28,7 @@ const Main=()=>{
                             
                                 <label htmlFor='password'>Password</label>
                                 <div className="div-input">
-                                    <input type="password" id="password" value="someonesome"/>
+                                    <input type="password" id="password" value="someonessome"/>
                                     <img src={img2}/>
                                 </div>
                                     
