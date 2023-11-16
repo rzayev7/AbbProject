@@ -1,0 +1,68 @@
+
+
+.local-section{
+    display: flex;
+    padding: 0px 72px 120px 72px;
+    flex-direction: column;
+    gap: 40px;
+}
+.local-section h1{
+    color: var(--gray-900, #141D24);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+}
+.experts-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 380px;
+}
+
+.left-call img{
+    position: relative;
+    left:30px;
+}
+.right-call img{
+    position: relative;
+    right:30px;
+    top: 44px;
+}
+.left-dialog p{
+    width: 212px;
+    position: relative;
+    bottom: 90px;
+    left:40px;
+}
+.left-dialog{
+    
+    position: relative;
+    right: 120px;
+    bottom: 290px;
+
+}
+.right-dialog p{
+    width: 212px;
+    position: relative;
+    bottom: 37px;
+    
+}
+.right-dialog{
+    
+    position: relative;
+    bottom: 120px;
+    left:440px;
+    width: 230px;
+
+}
+
+
+
+
+
+.right-dialog p{
+    width: 212px;
+}
+

@@ -1,0 +1,55 @@
+
+
+.why{
+    display: flex;
+    padding: 0px 72px 120px 72px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.why-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+.why-answer{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+#p-why{
+    color: var(--gray-900, #141D24);
+text-align: center;
+
+/* 5XL/Bold */
+
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 133.333% */
+}
+.answer{
+    display: flex;
+    width: 416px;
+    padding: 32px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 20px;
+    background: var(--gray-50, #F5F7FA);
+}
+
+.answer div{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: var(--violet-500, #4A21EF);
+}

@@ -26,7 +26,7 @@
 input[type="email"],
 input[type="password"] {
     color: var(--gray-400, #788795);
-
+    border-style: none;
     /* M-24/Regular */
     font-family: 'Inclusive Sans', sans-serif;
     font-size: 16px;
@@ -83,7 +83,7 @@ label{
     font-weight: 400;
     line-height: 24px; /* 150% */
 }
-.Sign-in button{
+button{
     display: flex;
     height: 48px;
     padding: 12px 24px;
@@ -147,4 +147,50 @@ button p{
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 171.429% */
+}
+
+.changePsContainer{
+    display: flex;
+    width: 512px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+#changePsForm{
+    display: flex;
+    width: 732px;
+    height: 788px;
+    padding: 120px 0px 36px 0px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.changePassword{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.changePassword h1{
+    font-family: 'Inclusive Sans', sans-serif;
+    color: var(--gray-900, #141D24);
+
+    /* XXL-48/Semibold */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 200% */
+}
+.changePassword p{
+    color: var(--gray-500, #5E6F7D);
+
+/* M-24/Regular */
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
 }
